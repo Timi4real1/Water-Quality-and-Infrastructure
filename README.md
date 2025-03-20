@@ -1,40 +1,41 @@
 # Water Quality and Infrastructure Analysis
+**Title:** Water Quality
 
-This project focuses on analyzing water quality data, infrastructure improvements, and employee performance for water sources in various locations. The project uses SQL to join and filter data across multiple tables, identify problematic sources, and track project progress.
+This project analyzes water quality, infrastructure upgrades, and employee performance for various water sources. Using SQL, it integrates data from multiple tables to identify contamination issues, assess infrastructure needs, and monitor project progress.
 
 ![Project Overview](./Images/Maji_Ndogo.PNG)
 
 ## Project Overview
 
-The analysis is centered on:
+The analysis focuses on:
 
-- Evaluating water sources based on pollution results
-- Identifying infrastructure needs for various water source types
-- Tracking employee data to assess improvement efforts
-- Generating recommendations for improvement (e.g., installing filters, diagnosing infrastructure issues, etc.)
+- Assessing water sources for contamination levels
+- Identifying infrastructure needs for different water source types
+- Monitoring employee contributions to improvement efforts
+- Providing actionable recommendations (e.g., installing filters, addressing infrastructure faults)
 
 ## Database Structure
 
 The project uses the following tables:
 
-- **`visits`**: Contains information on visits to each water source, including queue times and assigned employees.
-- **`well_pollution`**: Tracks pollution results for well water sources.
-- **`water_source`**: Stores metadata on each water source, including type and population served.
-- **`location`**: Stores location-specific information, including town, province, and address.
-- **`Project_progress`**: Tracks improvement projects for each source, including status and comments.
+- **`visits`**: Logs water source visits, including queue times and assigned personnel
+- **`well_pollution`**: Records contamination levels in well water.
+- **`water_source`**:  Stores details on source type and population served.
+- **`location`**: Contains geographic data, such as town, province, and address.
+- **`Project_progress`**: Tracks improvement efforts, their status, and related comments.
 
 ## Key Features
 
-1. **Project Tracking**: Automatically updates improvement recommendations based on water quality results and queue times.
-2. **Employee Performance**: Monitors employee performance by tracking discrepancies between auditor and surveyor assessments.
-3. **Infrastructure Recommendations**: Generates specific infrastructure improvement actions based on data (e.g., installing additional taps for long queues).
+1. **Progress Tracking**: Updates improvement recommendations based on contamination levels and queue durations.
+2. **Employee Assessment**: Evaluates staff performance by comparing auditor and surveyor reports.
+3. **Infrastructure Suggestions**: Generates targeted recommendations, such as adding taps for high-traffic areas.
 
-## How to Run the Project
+## Running the Project
 
-1. Import the SQL files provided in the `/sql` directory.
-2. Populate the database with sample data, following the instructions in `data_loading.sql`.
-3. Execute the query files to generate views, track progress, and analyze data.
+1. Import SQL files from the `/sql` directory. 
+2. Load sample data using `data_loading.sql`.
+3. Execute queries to generate insights, track progress, and refine recommendations.
 
 ## Access the Full Documentation
 
-Dataset was provided by ALX [project documentation]([https://www.alxafrica.com).
+Dataset was provided by ALX [project documentation](https://alxafrica.com).
