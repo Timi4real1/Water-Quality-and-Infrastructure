@@ -1,6 +1,3 @@
-/* To answer question 1, we will need province_name and town_name from the location table. 
-We also need to know type_of_water_source and
-number_of_people_served from the water_source table. */
 
 USE md_water_services;
 SELECT
